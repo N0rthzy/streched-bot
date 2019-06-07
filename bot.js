@@ -19,6 +19,6 @@ client.on('message', message => {
     if (message.content === '$Ping') {
     	message.reply('@everyone @dani xd#6502 ');
   	}
-});
+   
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
