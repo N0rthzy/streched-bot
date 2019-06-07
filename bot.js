@@ -15,6 +15,10 @@ client.on('message', message => {
     if (message.content === '$help') {
     	message.reply('heres the list of commands $help to get this help pop up menu $gen to gen a account $stock $bam $kick  $mute');
   	}
+    client.on('message', message => {
+    if (message.content === '$Ping') {
+    	message.reply('@everyone @dani xd#6502 ');
+  	}
 });
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
