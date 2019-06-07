@@ -13,13 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '$help') {
-    	message.reply('heres the list of commands
-                      $help to get this help pop up menu
-                      $gen to gen a account
-                      $stock
-                      $ban
-                      $kick
-                      $mute');
+    	message.reply('heres the list of commands $help to get this help pop up menu $gen to gen a account $stock $bam $kick  $mute');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
