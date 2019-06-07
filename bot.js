@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '$help') {
-    	message.reply('what do you need help with?');
+    if (message.content === '$Whomade') {
+    	message.reply('this bof was made by IM CAPPING#2410');
   	}
 });
 
