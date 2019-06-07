@@ -7,9 +7,20 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '$Whomade') {
-    	message.reply('this bof was made by IM CAPPING#2410');
+    	message.reply('this bot was made by IM CAPPING#2410');
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '$help') {
+    	message.reply('heres the list of commands
+                      $help to get this help pop up menu
+                      $gen to gen a account
+                      $stock
+                      $ban
+                      $kick
+                      $mute');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
