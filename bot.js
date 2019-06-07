@@ -10,6 +10,7 @@ client.on('message', message => {
     	message.reply('@everyone');
   	}
 });
+
 client.on('message', message => {
     if (message.content === '$help') {
     	message.reply('join the support server https://discord.gg/R3Anwav ');
