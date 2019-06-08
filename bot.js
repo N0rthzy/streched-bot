@@ -6,13 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '$ping') {
+    if (message.content === '?ping') {
     	message.reply('@everyone');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '$help') {
+    if (message.content === '?help') {
     	message.reply('join the support server https://discord.gg/R3Anwav ');
   	}
 });
