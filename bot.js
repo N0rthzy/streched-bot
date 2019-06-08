@@ -6,19 +6,19 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '?ping') {
+    if (message.content === 'h!ping') {
     	message.reply('@everyone');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '?help') {
+    if (message.content === 'h!help') {
     	message.reply('join the support server https://discord.gg/R3Anwav ');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '?ban') {
+    if (message.content === 'h!ban') {
     	message.reply('unable to ban that user');
   	}
 });
