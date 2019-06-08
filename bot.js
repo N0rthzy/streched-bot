@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'h!ban') {
-    	message.reply('unable to ban that user');
+    	message.reply('unable to ban that {user}');
   	}
 });
 
